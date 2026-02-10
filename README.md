@@ -1,5 +1,58 @@
-# sql-basics-training
+# SQL Basics Training
 
-This project uses the PostgreSQL maven-student-grades-db.
+This repository contains a **mini guided SQL project** completed as part of foundational SQL practice.
 
-https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHZhZlZpc0l6QlZLUHRaV1lxelZxWFdEMi1kd3xBQ3Jtc0tuMXhXMDVhb2JZV2xsT29aZ004THh6RlJ2OG5EeDItTGw2c2JvQVg1RHp3WjUtaE10cXV0Z2RlclVsMXlyRmF4bnZkQnlIM05malRtMFVOY3N4N2hLMF9xNzFBbTVfRk5YSUdySGR2Y1hNM2ZrWElnaw&q=https%3A%2F%2Fmaven-datasets.s3.amazonaws.com%2FYouTube%2BDownloads%2Fmaven-student-grades-db.zip&v=_vxobA36UN4
+The goal of the project is to reinforce core SQL concepts using a simple relational dataset, with a particular focus on:
+- filtering and sorting data
+- aggregation and grouping
+- understanding JOIN behaviour (LEFT vs INNER)
+
+---
+
+## Dataset
+
+This project uses the **PostgreSQL `maven-student-grades-db`** sample database.
+
+The dataset includes:
+- `students` — basic student information (name, grade level, GPA, school lunch)
+- `student_grades` — class-level final grades linked to students
+
+The database was sourced from Maven Analytics and is publicly available.
+
+**Download link:**  
+https://maven-datasets.s3.amazonaws.com/YouTube+Downloads/maven-student-grades-db.zip
+
+---
+
+## What This Project Covers
+
+The SQL scripts in this repository demonstrate:
+
+- Viewing and exploring tables (`SELECT`, `FROM`)
+- Filtering rows with `WHERE`
+- Sorting results with `ORDER BY`
+- Aggregations using `AVG`, `COUNT`
+- Grouping data with `GROUP BY`
+- Filtering aggregated results with `HAVING`
+- Using `DISTINCT`
+- Joining tables using:
+  - `LEFT JOIN` (to retain all students)
+  - `INNER JOIN` (to return only students with grades)
+- Identifying unmatched records (students with no grades)
+
+---
+
+## Tools Used
+
+- **Database:** PostgreSQL  
+- **SQL Client:** DBeaver  
+- **Language:** SQL  
+
+---
+
+## Notes
+
+This project was completed as guided practice while learning SQL fundamentals.  
+The focus is on **query correctness, readability, and understanding**, rather than optimisation or production deployment.
+
+Future projects will build on this foundation with more complex joins and analysis-style queries.
