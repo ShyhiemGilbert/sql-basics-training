@@ -1,2 +1,4 @@
 # sql-basics-training
 
+This project uses the PostgreSQL maven-student-grades-db.
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHZhZlZpc0l6QlZLUHRaV1lxelZxWFdEMi1kd3xBQ3Jtc0tuMXhXMDVhb2JZV2xsT29aZ004THh6RlJ2OG5EeDItTGw2c2JvQVg1RHp3WjUtaE10cXV0Z2RlclVsMXlyRmF4bnZkQnlIM05malRtMFVOY3N4N2hLMF9xNzFBbTVfRk5YSUdySGR2Y1hNM2ZrWElnaw&q=https%3A%2F%2Fmaven-datasets.s3.amazonaws.com%2FYouTube%2BDownloads%2Fmaven-student-grades-db.zip&v=_vxobA36UN4
